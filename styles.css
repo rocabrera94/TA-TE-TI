@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+
+.tablero{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadrado{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-linea{
+    border-bottom: 3px solid black;
+}
+
+.vertical-linea{
+    border-right: 3px solid black;
+}
+
+.ganador{
+    background-color: lightgray;
+    color: red;
+}
